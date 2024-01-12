@@ -153,26 +153,26 @@ int Hist_Writing(type_info *info);
 int Hist_reading(type_info *info);
 int creat_listhist(type_info *info, char *buf, int linecount);
 int reconunting_history(type_info *info);
-type_List *creat_Lnode(type_List **, const char *, int);//>>>>>
+type_List *creat_Lnode(type_List **, const char *, int);
 type_List *RokaNeNode(type_List **, const char *, int);
 size_t Listprint(const type_List *);
-int indnode_Rem(type_List **, unsigned int);//>>>>>
+int indnode_Rem(type_List **, unsigned int);
 void alllist_Freeing(type_List **);
 size_t len_list(const type_List *);
 char **string_from_list(type_List *);
 size_t displays_List(const type_List *);
-int alias_setting(type_info *, char *);//>>>>>
-ssize_t BF_reading(type_info *, char *, size_t *);//>>>>>
-ssize_t BF_inputting(type_info *, char **, size_t *);//>>>>>
-int strREPLACING(char **, char *);//>>>>>
-int mHSH(type_info *, char **);//>>>>>
+int alias_setting(type_info *, char *);
+ssize_t BF_reading(type_info *, char *, size_t *);
+ssize_t BF_inputting(type_info *, char **, size_t *);
+int strREPLACING(char **, char *);
+int mHSH(type_info *, char **);
 int built_Finder(type_info *);
 void cmdFinder(type_info *);
 void forkcmdddd(type_info *);
 int CCMD(type_info *, char *);
 char *RODuplicates(char *, int, int);
 char *PFin(type_info *, char *, char *);
-int loophsh(char **);//>>>>>
+int loophsh(char **);
 void ETS(char *);
 int EpuT(char);
 int Rokaputs(char c, int fd);
