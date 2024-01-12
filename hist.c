@@ -1,5 +1,4 @@
 #include "shell.h"
-#include "indnode.h"
 
 /**
  * handlersig - control cc
