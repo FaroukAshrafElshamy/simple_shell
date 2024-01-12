@@ -128,7 +128,7 @@ int creat_listhist(type_info *f, char *BF, int cLine)
 
 	if (f->history)
 		Listn = f->history;
-	RokaNode(&Listn, BF, cLine);
+	RokaNeNode(&Listn, BF, cLine);
 	if (!f->history)
 		f->history = Listn;
 	return (0);

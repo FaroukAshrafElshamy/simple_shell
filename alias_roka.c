@@ -17,7 +17,7 @@ int RoSetting(type_info *f, char *s)
 	if (!*++str)
 		return (AliasUnset(f, s));
 	AliasUnset(f, s);
-	return (RokaNode(&(f->alias), s, 0) == NULL);
+	return (RokaNeNode(&(f->alias), s, 0) == NULL);
 }
 
 /**
@@ -71,7 +71,7 @@ int roka_alias(type_info *f)
 		if (ptr)
 			RoSetting(f, f->argv[index]);
 		else
-			AliasPrinting(RokaNode(f->alias, f->argv[index], '='));
+			AliasPrinting(RokaNeNode(f->alias, f->argv[index], '='));
 	}
 	return (0);
 }

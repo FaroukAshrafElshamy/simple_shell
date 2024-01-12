@@ -152,7 +152,7 @@ int Hist_reading(type_info *info);
 int creat_listhist(type_info *info, char *buf, int linecount);
 int reconunting_history(type_info *info);
 type_List *creat_Lnode(type_List **, const char *, int);
-type_List *creat_EnNode(type_List **, const char *, int);
+type_List *RokaNeNode(type_List **, const char *, int);
 size_t Listprint(const type_List *);
 int indnode_Rem(type_List **, unsigned int);
 void alllist_Freeing(type_List **);
