@@ -167,7 +167,7 @@ ssize_t BF_inputting(type_info *, char **, size_t *);
 int strREPLACING(char **, char *);
 int mHSH(type_info *, char **);
 int built_Finder(type_info *);
-void cmdFinder(type_info *);
+void CMDFika(type_info *f);
 void forkcmdddd(type_info *);
 int CCMD(type_info *, char *);
 char *RODuplicates(char *, int, int);
