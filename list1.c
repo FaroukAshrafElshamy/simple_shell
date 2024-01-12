@@ -85,8 +85,8 @@ size_t Listprint(const type_List *head)
 
 	while (head)
 	{
-		fputs(head->str ? head->str : "(nil)");
-		fputs("\n");
+		Rokaputs(head->str ? head->str : "(nil)");
+		Rokaputs("\n");
 		head = head->next;
 		index++;
 	}
@@ -142,11 +142,11 @@ size_t DispList(const type_List *head)
 
 	while (head)
 	{
-		fputs(num_converting(head->num, 10, 0));
+		Rokaputs(num_converting(head->num, 10, 0));
 		charput_roka(':');
 		charput_roka(' ');
-		fputs(head->str ? head->str : "(nil)");
-		fputs("\n");
+		Rokaputs(head->str ? head->str : "(nil)");
+		Rokaputs("\n");
 		head = head->next;
 		index++;
 	}

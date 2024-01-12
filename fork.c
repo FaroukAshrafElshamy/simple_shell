@@ -42,7 +42,7 @@ void forkcmdddd(type_info *f)
  * @ptr: str
  */
 
-void fputs(char *ptr)
+void Rokaputs(char *ptr)
 {
 	int ind = 0;
 

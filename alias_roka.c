@@ -36,8 +36,8 @@ int AliasPrinting(type_List *n)
 		for (ptr2 = n->str; ptr2 <= ptr1; ptr2++)
 			charput_roka(*ptr2);
 		charput_roka('\'');
-		fputs(ptr1 + 1);
-		fputs("'\n");
+		Rokaputs(ptr1 + 1);
+		Rokaputs("'\n");
 		return (0);
 	}
 	return (1);

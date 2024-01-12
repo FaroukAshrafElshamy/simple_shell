@@ -41,7 +41,7 @@ int roka_cd(type_info *f)
 
 	ptr = getcwd(BF, 1024);
 	if (!ptr)
-		fputs("TODO: >>getcwd failure emsg here<<\n");
+		Rokaputs("TODO: >>getcwd failure emsg here<<\n");
 	if (!f->argv[1])
 	{
 		d = obtain_Env(f, "HOME=");
@@ -55,11 +55,11 @@ int roka_cd(type_info *f)
 	{
 		if (!obtain_Env(f, "OLDPWD="))
 		{
-			fputs(ptr);
+			Rokaputs(ptr);
 			charput_roka('\n');
 			return (1);
 		}
-		fputs(obtain_Env(f, "OLDPWD=")), charput_roka('\n');
+		Rokaputs(obtain_Env(f, "OLDPWD=")), charput_roka('\n');
 		rChDr =
 			chdir((d = obtain_Env(f, "OLDPWD=")) ? d : "/");
 	}
@@ -89,9 +89,9 @@ int roka_help(type_info *f)
 	char **arArgs;
 
 	arArgs = f->argv;
-	fputs("help call works. Function not yet implemented \n");
+	Rokaputs("help call works. Function not yet implemented \n");
 	if (0)
-		fputs(*arArgs);
+		Rokaputs(*arArgs);
 	return (0);
 }
 
