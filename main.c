@@ -38,6 +38,6 @@ int main(int countarr, char **arr)
 	}
 	pop_env_li(f);
 	Hist_reading(f);
-	FHS(f, arr);
+	mHSH(f, arr);
 	return (EXIT_SUCCESS);
 }
