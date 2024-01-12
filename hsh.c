@@ -7,7 +7,6 @@
  * @charac: char
  * Return: Null or Node
  */
-
 type_List *RokaNode(type_List *n, char *p, char charac)
 {
 	char *ptr = NULL;
@@ -29,7 +28,6 @@ type_List *RokaNode(type_List *n, char *p, char charac)
  * @Fcmd: finding cmd
  * Return: complete cmd path
  */
-
 char *PFin(type_info *f, char *stPath, char *Fcmd)
 {
 	int in = 0, posc = 0;
@@ -71,7 +69,6 @@ char *PFin(type_info *f, char *stPath, char *Fcmd)
  * @arargs: arrays of args
  * Return: zero or one
  */
-
 int FHS(type_info *f, char **arargs)
 {
 	ssize_t c = 0;
@@ -113,7 +110,6 @@ int FHS(type_info *f, char **arargs)
  * @info: struct
  * Return: -one,zero,one,2
  */
-
 int BuilFin(type_info *info)
 {
 	int index, rBuilt = -1;
@@ -141,7 +137,6 @@ int BuilFin(type_info *info)
  * CMDFika - cmd finder
  * @f: struct
  */
-
 void CMDFika(type_info *f)
 {
 	int n, m;
