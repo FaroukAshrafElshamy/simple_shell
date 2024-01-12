@@ -158,7 +158,6 @@ int reconunting_history(type_info *info);
 type_List *creat_Lnode(type_List **, const char *, int);
 type_List *RokaNeNode(type_List **, const char *, int);
 size_t Listprint(const type_List *);
-int indnode_Rem(type_List **, unsigned int);
 void alllist_Freeing(type_List **);
 size_t len_list(const type_List *);
 size_t displays_List(const type_List *);

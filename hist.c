@@ -109,7 +109,7 @@ int Hist_reading(type_info *f)
 	f->histcount = cLines;
 	while (f->histcount-- >= MaxHist)
 		RemRo(&(f->history), 0);
-	indnode_Rem(&(f->history), 0);
+	RemRo(&(f->history), 0);
 	reconunting_history(f);
 	return (f->histcount);
 }
