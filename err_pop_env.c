@@ -49,10 +49,6 @@ int pop_env_li(type_info *f)
 	size_t in;
 	type_List *nt = NULL;
 
-	for (index = 0; environ[index]; index++)
-		RokaNeNode(&n, environ[index], 0);
-	f->env = n;
-
 	for (in = 0; environ[in]; in++)
 		creat_EnNode(&nt, environ[in], 0);
 	f->env = nt;
