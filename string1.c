@@ -94,7 +94,7 @@ char *num_converting(long int nm, int b, int f)
 	strar = f & ConvertLowercase ? "0123456789abcdef" : "0123456789ABCDEF";
 	str = &BF[49];
 	*str = '\0';
-	do{
+	do {
 		*--str = strar[i % b];
 		i /= b;
 	} while (i != 0);

@@ -68,7 +68,7 @@ char *_strncat(char *d, char *ss, int Bn)
 
 char *strchar_roka(char *string, char charac)
 {
-	do{
+	do {
 		if (*string == charac)
 			return (string);
 	} while (*string++ != '\0');

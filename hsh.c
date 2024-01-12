@@ -166,7 +166,8 @@ void CMDFika(type_info *f)
 	}
 	else
 	{
-		if ((checkAct(f) || obtain_Env(f, "PATH=") || f->argv[0][0] == '/') && CCMD(f, f->argv[0]))
+		if ((checkAct(f) || obtain_Env(f, "PATH=")
+			|| f->argv[0][0] == '/') && CCMD(f, f->argv[0]))
 			forkcmdddd(f);
 		else if (*(f->arg) != '\n')
 		{
