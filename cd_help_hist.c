@@ -103,7 +103,7 @@ int roka_help(type_info *f)
 
 int roka_hist(type_info *f)
 {
-	DispList(f->history);
+	Listprint(f->history);
 	return (0);
 }
 
