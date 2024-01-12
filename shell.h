@@ -116,6 +116,7 @@ char **wfromstr(char *, char *);
 char **fromstr2(char *, char);
 char *roka_Memset(char *, char, unsigned int);
 void freerokaf(char **);
+void RokaFree(type_List **pointerH)
 void *roka_realloc(void *, unsigned int, unsigned int);
 int freepointer(void **);
 int checkAct(type_info *);

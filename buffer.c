@@ -16,11 +16,11 @@ void f_freeing(type_info *f, int a)
 		if (!f->cmd_buf)
 			free(f->arg);
 		if (f->env)
-			freerokaf(&(f->env));
+			RokaFree(&(f->env));
 		if (f->history)
-			freerokaf(&(f->history));
+			RokaFree(&(f->history));
 		if (f->alias)
-			freerokaf(&(f->alias));
+			RokaFree(&(f->alias));
 		freerokaf(f->environ);
 		f->environ = NULL;
 		freepointer((void **)f->cmd_buf);
