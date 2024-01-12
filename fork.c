@@ -38,11 +38,11 @@ void forkcmdddd(type_info *f)
 }
 
 /**
- * fputs - displays str
+ * RRppts - displays str
  * @ptr: str
  */
 
-void Rokaputs(char *ptr)
+void RRppts(char *ptr)
 {
 	int ind = 0;
 

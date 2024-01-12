@@ -81,7 +81,7 @@ int FHS(type_info *f, char **arargs)
 	{
 		roka_clear(f);
 		if (checkAct(f))
-			Rokaputs("$ ");
+			RRppts("$ ");
 		EpuT(BufFlush);
 		c = obtain_inputtting(f);
 		if (c != -1)

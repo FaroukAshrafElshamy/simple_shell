@@ -7,8 +7,8 @@
 
 void handlersig(__attribute__((unused)) int n_sigin)
 {
-	Rokaputs("\n");
-	Rokaputs("$ ");
+	RRppts("\n");
+	RRppts("$ ");
 	charput_roka(BufFlush);
 }
 

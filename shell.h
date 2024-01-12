@@ -107,7 +107,7 @@ char *pOfstr(const char *, const char *);
 char *catstr_roka(char *, char *);
 char *copystr_roka(char *, char *);
 char *duplicatstr(const char *);
-void Rokaputs(char *);
+void RRppts(char *);
 int charput_roka(char);
 char *strncopy_roka(char *, char *, int);
 char *_strncat(char *, char *, int);

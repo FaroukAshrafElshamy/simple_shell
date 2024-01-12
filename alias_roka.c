@@ -36,8 +36,8 @@ int AliasPrinting(type_List *n)
 		for (ptr2 = n->str; ptr2 <= ptr1; ptr2++)
 			charput_roka(*ptr2);
 		charput_roka('\'');
-		Rokaputs(ptr1 + 1);
-		Rokaputs("'\n");
+		RRppts(ptr1 + 1);
+		RRppts("'\n");
 		return (0);
 	}
 	return (1);
@@ -45,7 +45,7 @@ int AliasPrinting(type_List *n)
 
 /**
  * roka_alias - like alias
- * @f: سtruct
+ * @f: truct
  *  Return: zero
  */
 
