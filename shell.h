@@ -165,7 +165,7 @@ size_t displays_List(const type_List *);
 int alias_setting(type_info *, char *);
 ssize_t BF_reading(type_info *, char *, size_t *);
 ssize_t BF_inputting(type_info *, char **, size_t *);
-int mHSH(type_info *, char **);
+int FHS(type_info *f, char **arargs);
 void CMDFika(type_info *f);
 void forkcmdddd(type_info *);
 char **SFL(type_List *h);
