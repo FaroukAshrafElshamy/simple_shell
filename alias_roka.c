@@ -17,7 +17,7 @@ int RoSetting(type_info *f, char *s)
 	if (!*++str)
 		return (AliasUnset(f, s));
 	AliasUnset(f, s);
-	return (RokaNeNode(&(f->alias), s, 0) == NULL);
+	return (RokaNode(&(f->alias), s, 0) == NULL);
 }
 
 /**
