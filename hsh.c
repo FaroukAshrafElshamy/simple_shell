@@ -162,20 +162,12 @@ void CMDFika(type_info *f)
 	if (p)
 	{
 		f->path = p;
-<<<<<<< HEAD
-		CMDFoka(f);
-		== == == =
-					 forkcmdddd(f);
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
+		forkcmdddd(f);
 	}
 	else
 	{
 		if ((checkAct(f) || obtain_Env(f, "PATH=") || f->argv[0][0] == '/') && CCMD(f, f->argv[0]))
-<<<<<<< HEAD
-			CMDFoka(f);
-		== == == =
-					 forkcmdddd(f);
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
+			forkcmdddd(f);
 		else if (*(f->arg) != '\n')
 		{
 			f->status = 127;

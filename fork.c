@@ -1,19 +1,11 @@
 #include "shell.h"
 
 /**
-<<<<<<< HEAD
- * CMDFoka - cmd forking
- * @f: struct
- */
-
-void CMDFoka(type_info *f)
-=======
  * forkcmdddd - cmd forking
  * @f: struct
  */
 
 void forkcmdddd(type_info *f)
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
 {
 	pid_t chppd;
 

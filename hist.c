@@ -108,13 +108,9 @@ int Hist_reading(type_info *f)
 	free(BF);
 	f->histcount = cLines;
 	while (f->histcount-- >= MaxHist)
-<<<<<<< HEAD
 		RemRo(&(f->history), 0);
-	Hist_Renumbering(f);
-=======
-		indnode_Rem(&(f->history), 0);
+	indnode_Rem(&(f->history), 0);
 	reconunting_history(f);
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
 	return (f->histcount);
 }
 
