@@ -152,7 +152,7 @@ int roka_envunsetting(type_info *, char *);
 int roka_envsetting(type_info *, char *, char *);
 char *obt_FHist(type_info *info);
 int Hist_Writing(type_info *info);
-int Hist_reading(type_info *info);
+int Hist_reading(type_info *f);
 int creat_listhist(type_info *info, char *buf, int linecount);
 int reconunting_history(type_info *info);
 type_List *creat_Lnode(type_List **, const char *, int);
