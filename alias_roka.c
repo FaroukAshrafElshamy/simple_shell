@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * RoSetting - obtains string
+  * RoSetting - obtains string
  * @f: struct
  * @s: string
  * Return: zero or one
