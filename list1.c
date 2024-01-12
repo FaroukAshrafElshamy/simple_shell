@@ -102,11 +102,8 @@ size_t Listprint(const type_List *head)
 char **SFL(type_List *h)
 {
 	type_List *n = h;
-<<<<<<< HEAD
-	size_t m = LenList(h), k;
-=======
+
 	size_t m = len_list(h), k;
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
 	char **ptr1;
 	char *ptr2;
 

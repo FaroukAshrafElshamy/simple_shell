@@ -64,20 +64,12 @@ void RokaFree(type_List **pointerH)
 }
 
 /**
-<<<<<<< HEAD
- * LenList - get the length of the list
-=======
  * len_list - get the length of the list
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
  * @head: head
  * Return: list size
  */
 
-<<<<<<< HEAD
-size_t LenList(const type_List *head)
-=======
 size_t len_list(const type_List *head)
->>>>>>> f40e936485249b1ef01c03dcdff98a5dcca8ebf9
 {
 	size_t index = 0;
 
