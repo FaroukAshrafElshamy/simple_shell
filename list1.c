@@ -142,7 +142,7 @@ size_t DispList(const type_List *head)
 
 	while (head)
 	{
-		Rokaputs(num_converting(head->num, 10, 0));
+		RRppts(num_converting(head->num, 10, 0));
 		charput_roka(':');
 		charput_roka(' ');
 		RRppts(head->str ? head->str : "(nil)");
