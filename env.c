@@ -120,7 +120,7 @@ int roka_envsetting(type_info *f, char *v, char *vu)
 		}
 		N = N->next;
 	}
-	RokaNeNode(&(f->env), BF, 0);
+	RokaNode(&(f->env), BF, 0);
 	free(BF);
 	f->env_changed = 1;
 	return (0);
